@@ -3,7 +3,6 @@ botoes.forEach(botao => {
     botao.addEventListener("click", guardaNota )
 })
 
-
 function guardaNota(evento) {
     let nota = evento.target.innerText
 
